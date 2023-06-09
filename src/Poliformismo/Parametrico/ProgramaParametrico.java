@@ -1,12 +1,10 @@
 package Poliformismo.Parametrico;
 
-import Poliformismo.Parametrico.Sobrecarga;
-
 class ProgramaParametrico{
 
     public static void main (String args []){
 
-        Sobrecarga Obj = new Sobrecarga();
+        Parametrico Obj = new Parametrico();
         double resultado;
         Obj.demo(10);
         Obj.demo(10, 20);
